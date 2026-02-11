@@ -1,0 +1,15 @@
+function greet(name) {
+  console.log(`Hello, ${name}!`);
+}
+
+function add(a, b, c = 0) {
+  return a + b + c;
+}
+
+function multiply(a, b) {
+  return a * b;
+}
+
+const result = add(5, 3);
+greet("Universe");
+console.log(`Result: ${result}`);
